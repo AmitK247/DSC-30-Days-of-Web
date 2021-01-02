@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+       <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+       <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+        <style>
+          body {
+           background-image: url(pngtree-beautiful-technology-website-business-poster-background-template-image_148436.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+           background-size: cover;
+           margin: 30px;
+             }  
+             header {
+           background-image: url(header.jpg);
+            background-repeat: no-repeat;
+           background-size: cover;
+             }  
+          
+          ul {
+            position:sticky;
+            top:2px;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+          }
+          li {
+            float: left;
+          }
+          li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+          li a:hover:not(.active) {
+            background-color:purple;
+          }
+          .active {
+            background-color:rebeccapurple;
+          }
+          #aboutme ,#academics, #exp ,#sample ,#forms ,footer{background-image: url(background.jpg);
+            background-repeat: no-repeat;
+           background-size: cover ;
+           border-top: 5px rebeccapurple solid;
+           border-bottom: 5px rebeccapurple solid;
+           border-radius: 5px;
+           padding:20px; }
+           article,footer {font-family: 'Kalam',cursive;}
+           fieldset {background-image: url(cabackground-blue.jpg);
+           background-repeat: no-repeat;
+           background-size: cover; 
+           text-align:center;
+           border:purple solid 10px;
+           border-radius: 20px;}
+           h2 {background-color: purple;
+           color:white;
+           text-shadow: 2px 2px 2px black;}
+           h3 {background-color: cornflowerblue;
+                font-family: 'lobster',cursive;
+                color:black;
+                text-shadow: white 1px 1px 1px;}
+           input {background-color: aquamarine;} 
+           table,th,tr,td {border: 2px solid purple;
+                   border-collapse:collapse;
+                   text-align: center;
+                   padding:10px;}
+           th{height:50px;
+               background-color: rgb(11, 56, 255);
+               color: white;
+               font-family: 'lobster',cursive;
+               text-shadow: purple 2px 2px 2px;
+               font-size: 20px;}
+            td{background-color:rgb(170, 224, 255) ;
+              font-family: 'Kalam',cursive;}
+        </style>
+          <title>30 Days of Web Development</title>
+          <link rel = "icon" href =  
+           "UmfKpgg7_400x400.png" 
+            type = "image/x-icon"> 
+    </head>
+    <body>
+      <header style="color:white;font-family: 'Staatliches',cursive;font-size: 40px;border-radius: 10px;border-bottom:purple 5px solid;text-align: center;border-top:purple 5px solid;text-shadow:purple 2px 2px 5px ;"><h1>30 DAYS OF WEB DEVELOPMENT</h1></header>
+      <ul>
+        <li><a href="#aboutme">Introduction</a></li>
+        <li><a href="#academics">Academics</a></li>
+        <li><a href="#exp">Experiance so far</a></li>
+        <li><a href="#sample">Audio and Video</a></li>
+        <li class="popup"><a href="#forms">Form</a></li>
+      </ul>
+      <div style="background-color: white;padding:10px;border:purple 5px solid;border-radius: 10px;">
+      <div id="aboutme" ><h2>About me:</h2>
+      <article>I am <strong>Amit Kumar</strong> currently a first year Computer science and engineering student at IIIT Kota.I am from Gurugram, Haryana.
+        I joined this program because i had no experiance in web development but i was curious about it and wanted to gain experiance at it.</article></div><br>
+      <div id="academics">
+        <h2>Academic Details:</h2>
+       <table style="width: 100%;">
+           <tr><th>Class</th>
+           <th>Subjects</th>
+           <th>Board</th>
+           <th>Name of School</th>
+           <th>CGPA or %</th></tr>
+           <tr><td>10th</td>
+           <td>Eng., Hin., Math, Sci., SSc.</td>
+           <td>CBSE</td>
+           <td>OLF Public School</td>
+           <td>10CGPA</td></tr>
+           <tr><td>12th</td>
+           <td>Eng., Phy., Che., Math, Arts</td>
+           <td>CBSE</td>
+           <td>DAV Public School</td>
+           <td>93.6%</td></tr>
+       </table></div><br><br>
+       <div id="exp"><h2>Experiance so far:</h2>
+         <article>So far <strong>30 Days of Computer Development</strong> are going great, I learnd how to use HTML and aspects of websites i didn't new before.
+           This week i was taught how to style a webpage using <strong>CSS</strong> and implemented the same in this webpage.
+            I hope in the remaining days i will learn even more and go forward on the path of becoming a Wed Developer.</article></div><br>
+       <div id="sample"><h2>Sample Video and Audio:</h2><h3 style="text-align: center;">Video:</h3><video controls name="Sample Video" style="margin-left:540px;border:purple solid 5px;"><source src="sample-mp4.mp4">Video not available.</video>
+            <h3 style="text-align: center;">Audio:</h3><audio controls name="Sample Audio"style="margin-left:550px;border:purple solid 5px;border-radius:10px;"><source src="sample-mp3.mp3">Audio not available</audio></div><br>
+              <div id="forms"><fieldset><legend ><h2 >Form:</h2></legend>
+                <h3>First name:   <input type="text" name="fname"required placeholder="Amit"></h3>
+                 <h3>Last Name:   <input type="text" name="lname"required placeholder="Kumar"></h3>
+                 <h3>E-mail:    <input type="text" name="email"placeholder="abc1@gmail.com"required></h3>
+                 <h3>Phone No.: <input type="tel" name="phone"placeholder="+91**********"pattern="[+91]{3}[1-9]{10}"required></h3><br><br>
+                 <input type="submit" style="background-image: url(UmfKpgg7_400x400.png);width:100px;height: 50px;background-size:cover;background-repeat: no-repeat;font-weight: bolder;text-shadow: white 1px 1px 1px;border-radius: 10px;">
+             </fieldset></div><br>
+        <footer ><strong>At last i want to say thanks to all the seniors and teachers who have arranged this program and will also recommend other fellow programmers to join this program.</strong></footer>
+         </div>
+    </body>
+</html>
