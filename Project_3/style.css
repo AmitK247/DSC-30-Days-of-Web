@@ -1,0 +1,36 @@
+   #head{background-image: url(download1.jfif);
+    background-attachment:  fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }ul {
+    position:fixed;
+    width:100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0.5;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+ul:hover{opacity: 1;
+    background-color: black;
+
+}
+li a:hover:not(.active) {
+color:rgb(240, 170, 240);
+}
+.active {
+  background-color:rebeccapurple;}
+footer{background-color: black;
+  color: rgb(80, 80, 80);
+padding: 50px;}
+#foot{padding: 0px 300px;}
