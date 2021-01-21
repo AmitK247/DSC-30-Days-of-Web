@@ -1,0 +1,94 @@
+   #head{background-image: url(download1.jfif);
+    background-attachment:  fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }ul {
+    position:fixed;
+    width:100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0.5;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+ul:hover{opacity: 1;
+    background-color: black;
+
+}
+li a:hover:not(.active) {
+color:rgb(240, 170, 240);
+}
+.active {
+  background-color:rebeccapurple;}
+footer{background-color: black;
+  color: rgb(80, 80, 80);
+padding: 50px;}
+#foot{padding: 0px 300px;}
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}}
+.modal-header1{color:white;
+background-color: rgb(70, 187, 162);}
+#logo{width: 100px;
+height:100px;
+padding: 20px;
+}
+#logd{margin: 0% 35%;}
+#nav{z-index:9999;}

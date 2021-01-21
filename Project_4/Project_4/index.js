@@ -41,7 +41,8 @@ function testValues() {
         }  
         else   if ( $("#fname").val() != null &&$("#fname").val() != ''&&$("#lname").val() != null && $("#lname").val() != ''&&$("#email").val() != null && $("#email").val() != ''&&$("#phone").val() != null && $("#phone").val() != '') {
             productAddToTable();
-            formClear();
+            fadeout();
+            success();
             $("#fname").focus();
 
         }}}
@@ -53,7 +54,6 @@ function testValues() {
             arrInput1.push(no1);
         if ( $("#fname").val() != null &&$("#fname").val() != ''&&$("#lname").val() != null && $("#lname").val() != ''&&$("#email").val() != null && $("#email").val() != ''&&$("#phone").val() != null && $("#phone").val() != '') {
             productAddToTable();
-            formClear();
             fadeout();
             success();
  
