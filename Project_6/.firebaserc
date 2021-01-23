@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "web-dev-7d854"
+    "default": "web-dev-7d854",
+    "final": "web-dev-7d854"
   }
 }
